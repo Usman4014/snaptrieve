@@ -1,53 +1,65 @@
 # Snaptrieve
 
-**Capture. Organize. Find.**
+### Capture. Organize. Find.
 
-Snaptrieve is an offline-first screenshot management application designed to help users organize, search, and retrieve important information from their screenshots effortlessly.
+**Snaptrieve** is an offline-first screenshot management application designed to make saving, organizing, and finding information from screenshots easier.
 
-With on-device Optical Character Recognition (OCR) and intelligent rule-based categorization, Snaptrieve transforms ordinary screenshots into searchable and organized content.
-
-## 📱 Screenshots
+It uses on-device Optical Character Recognition (OCR) and rule-based categorization to turn ordinary screenshots into searchable, organized content.
 
 <p align="center">
-  <img src="screenshots/onboarding.png" width="200" alt="Snaptrieve Onboarding" />
-  <img src="screenshots/dashboard.png" width="200" alt="Snaptrieve Dashboard" />
-  <img src="screenshots/library.png" width="200" alt="Screenshot Library" />
+  <img src="assets/images/snaptrieve_logo.png" width="110" alt="Snaptrieve Logo" />
 </p>
 
 <p align="center">
-  <img src="screenshots/import_screenshots.png" width="200" alt="Import Screenshots" />
-  <img src="screenshots/backup_restore.png" width="200" alt="Backup and Restore" />
+  <strong>Capture. Organize. Find.</strong>
 </p>
 
-## ✨ Features
+---
+
+## 📱 App Screenshots
+
+<p align="center">
+  <img src="screenshots/onboarding.png" width="180" alt="Onboarding" />
+  <img src="screenshots/dashboard.png" width="180" alt="Dashboard" />
+  <img src="screenshots/library.png" width="180" alt="Screenshot Library" />
+</p>
+
+<p align="center">
+  <img src="screenshots/import_screenshots.png" width="180" alt="Import Screenshots" />
+  <img src="screenshots/backup_restore.png" width="180" alt="Backup and Restore" />
+</p>
+
+---
+
+## ✨ Key Features
 
 - **Screenshot Import** – Import multiple screenshots from your device.
 - **On-Device OCR** – Extract text from screenshots using Google ML Kit.
 - **Smart Categorization** – Automatically organize screenshots using rule-based detection.
-- **Screenshot Search** – Find screenshots using extracted text.
+- **Powerful Search** – Find screenshots through their extracted text.
 - **Category Management** – Browse and organize screenshots by category.
-- **Screenshot Details** – View extracted information and screenshot details.
-- **Backup & Restore** – Export and restore your screenshot data through ZIP backups.
-- **Offline-First Experience** – Store and manage your data locally.
+- **Screenshot Details** – View screenshots and their extracted information.
+- **Backup & Restore** – Export and restore screenshot data using ZIP backup files.
+- **Local Data Storage** – Manage screenshot data locally using SQLite.
 - **Privacy-Focused** – No login or signup required.
 
 ## 🛠️ Technology Stack
 
 | Technology | Purpose |
 |---|---|
-| Flutter | Application development |
-| Dart | Programming language |
-| GetX | State management and navigation |
-| SQLite (sqflite) | Local database |
-| Google ML Kit | On-device text recognition |
-| Shared Preferences | Local preferences |
-| File Picker | Backup and restore |
-| Archive | ZIP backup processing |
-| Poppins | Application typography |
+| Dart | Programming Language |
+| Flutter | Application Framework |
+| GetX | State Management & Navigation |
+| SQLite (sqflite) | Local Database |
+| Google ML Kit | Text Recognition |
+| Shared Preferences | Local Preferences |
+| File Picker | File Selection |
+| Archive | Backup & Restore |
+| Poppins | Typography |
 
 ## 🏗️ Architecture
 
-Snaptrieve follows a feature-first architecture with Clean Architecture and Repository Pattern principles.
+Snaptrieve uses a feature-first architecture, applying Clean Architecture and Repository Pattern principles to organize application code.
 
 ```text
 lib/
@@ -76,6 +88,15 @@ lib/
 └── navigation/
 ```
 
+### Architecture Highlights
+
+- Feature-based module organization.
+- GetX controllers for application state management.
+- Bindings for dependency registration.
+- Repository Pattern for data access.
+- Centralized theme, constants, and reusable widgets.
+- Local SQLite database for persistent storage.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -87,25 +108,25 @@ lib/
 
 ### Installation
 
-1. Clone the repository:
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/Usman4014/snaptrieve.git
 ```
 
-2. Navigate to the project directory:
+**2. Navigate to the project directory**
 
 ```bash
 cd snaptrieve
 ```
 
-3. Install dependencies:
+**3. Install dependencies**
 
 ```bash
 flutter pub get
 ```
 
-4. Run the application:
+**4. Run the application**
 
 ```bash
 flutter run
@@ -113,31 +134,34 @@ flutter run
 
 ## 🔐 Privacy
 
-Snaptrieve is designed with an offline-first approach. Screenshot data is managed locally on the device, and the application does not require user authentication.
+Snaptrieve follows an offline-first approach and stores screenshot data locally on the device. No account registration or login is required.
 
-Read the full [Privacy Policy](https://usman4014.github.io/snaptrieve-privacy-policy/).
+Read the complete [Privacy Policy](https://usman4014.github.io/snaptrieve-privacy-policy/).
 
-## 📦 Application Details
+## 📦 Application Information
 
 | Property | Details |
 |---|---|
-| Application Name | Snaptrieve |
+| Application | Snaptrieve |
 | Package Name | com.usmanshabbir.snaptrieve |
 | Platform | Android |
-| Architecture | Feature-First Clean Architecture |
 | State Management | GetX |
 | Database | SQLite |
-| OCR | Google ML Kit |
+| OCR Engine | Google ML Kit |
+| Architecture | Feature-First Clean Architecture |
 
 ## 👨‍💻 Developer
 
 **Usman Shabbir**
 
-Flutter Developer | Mobile Application Development
+Flutter Developer
 
-- GitHub: [@Usman4014](https://github.com/Usman4014)
-- Email: support.usmantechlabs@gmail.com
+- GitHub: [Usman4014](https://github.com/Usman4014)
+- Project Repository: [Snaptrieve](https://github.com/Usman4014/snaptrieve)
+- Support: support.usmantechlabs@gmail.com
 
 ---
 
-**Snaptrieve — Capture. Organize. Find.**
+<p align="center">
+  <strong>Snaptrieve — Capture. Organize. Find.</strong>
+</p>
