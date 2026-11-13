@@ -6,6 +6,19 @@ Snaptrieve is an offline-first screenshot management application designed to hel
 
 With on-device Optical Character Recognition (OCR) and intelligent rule-based categorization, Snaptrieve transforms ordinary screenshots into searchable and organized content.
 
+## 📱 Screenshots
+
+<p align="center">
+  <img src="screenshots/onboarding.png" width="200" alt="Snaptrieve Onboarding" />
+  <img src="screenshots/dashboard.png" width="200" alt="Snaptrieve Dashboard" />
+  <img src="screenshots/library.png" width="200" alt="Screenshot Library" />
+</p>
+
+<p align="center">
+  <img src="screenshots/import_screenshots.png" width="200" alt="Import Screenshots" />
+  <img src="screenshots/backup_restore.png" width="200" alt="Backup and Restore" />
+</p>
+
 ## ✨ Features
 
 - **Screenshot Import** – Import multiple screenshots from your device.
